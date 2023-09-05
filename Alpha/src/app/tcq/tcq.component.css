@@ -125,3 +125,8 @@ a {
   font-weight: bolder;
   text-decoration: none;
 }
+#txt {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}

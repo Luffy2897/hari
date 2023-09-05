@@ -95,8 +95,8 @@ td {
 }
 
 .links {
-  margin-top: -3.5%;
-  margin-left: 6%;
+  margin-top: -2.5%;
+  margin-left: 4%;
 }
 
 mat-form-field {
@@ -157,6 +157,10 @@ a {
   text-decoration: none;
 }
 /* DIV OF EXPANSION PANEL CSS */
-.exp{
+.exp {
   margin-top: -5.5%;
+}
+
+#txt {
+  cursor: pointer;
 }

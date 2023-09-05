@@ -21,3 +21,18 @@
   font-weight: bolder;
   text-decoration: none;
 }
+
+#head {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -3%;
+  font-weight: bold;
+}
+
+#txt {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+}

@@ -4,18 +4,24 @@
     <mat-icon>home</mat-icon>
   </button>
   <div class="a">
-    <h4>
+    <h4 id="txt">
       &nbsp;&nbsp;
-      <a routerLink="/custom" style="color: rgb(13, 13, 13)">
-        T-hub Learning Offerings
+      <a routerLink="/custom" style="color: green">
+        <u> T-hub Learning Offerings</u>
       </a>
-      <a routerLink="/pmq" style="color: chartreuse"> > PMQ</a>
+      <a routerLink="/pmq" style="color: green"> ><u>PMQ</u></a>
     </h4>
   </div>
   <!-- EXPANSION PANEL FOR RESOURCES START -->
   <div>
     <mat-form-field color="accent" style="margin-left: 0.5%; width: 14%">
-      <mat-label style="font-weight: bold; color: aliceblue"
+      <mat-label
+        style="
+          font-weight: bold;
+          color: aliceblue;
+          font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande,
+            Lucida Sans, Arial, sans-serif;
+        "
         >Resources</mat-label
       >
       <mat-select [(value)]="selected">
@@ -24,7 +30,14 @@
           href="https://docs.google.com/presentation/d/11ERD3625oai-tEXK8ALDFIgS2I08HFhX/edit?usp=drive_link&ouid=110604609918416160002&rtpof=true&sd=true%22"
           target="_blank"
         >
-          <mat-option value="rs1" style="font-weight: bold">
+          <mat-option
+            value="rs1"
+            style="
+              font-weight: bold;
+              font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande,
+                Lucida Sans, Arial, sans-serif;
+            "
+          >
             Project Presentation Template
           </mat-option>
         </a>
@@ -34,7 +47,14 @@
           href="https://docs.google.com/presentation/d/11DN-Qrkn-W1wVYjcP8s-xUrO-W51cQ8T/edit?usp=drive_link&ouid=110604609918416160002&rtpof=true&sd=true%22"
           target="_blank"
         >
-          <mat-option value="rs2" style="font-weight: bold">
+          <mat-option
+            value="rs2"
+            style="
+              font-weight: bold;
+              font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande,
+                Lucida Sans, Arial, sans-serif;
+            "
+          >
             PMQ Journey
           </mat-option>
           <mat-divider></mat-divider>
@@ -44,7 +64,14 @@
           href="https://docs.google.com/presentation/d/11FLhWyf-IG3iBeaDxOKg6RmOnEDCnBEz/edit?usp=drive_link&ouid=110604609918416160002&rtpof=true&sd=true%22"
           target="_blank"
         >
-          <mat-option value="rs3" style="font-weight: bold">
+          <mat-option
+            value="rs3"
+            style="
+              font-weight: bold;
+              font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande,
+                Lucida Sans, Arial, sans-serif;
+            "
+          >
             Process Workflow
           </mat-option>
         </a>
@@ -54,15 +81,26 @@
   <!-- EXPANSION PANEL FOR RESOURCES END-->
   <!-- CODE FOR LOGOUT -->
   <div>
-    <a routerLink="" style="text-decoration: none">
-      <button mat-raised-button color="warn" class="c" style="color: black">
-        LOGOUT
-      </button>
-    </a>
+    <button
+      routerLink=""
+      mat-raised-button
+      color="warn"
+      class="c"
+      style="color: black"
+    >
+      LOGOUT
+    </button>
   </div>
   <!-- HERE THE CSS OF THE WHOLE PAGE IS THERE -->
   <mat-tab-group color="warn" dynamicHeight="10" class="box">
-    <mat-tab label="PMQ-E">
+    <mat-tab
+      label="PMQ-E"
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      "
+    >
       <a
         mat-raised-button
         class="b1"
@@ -82,7 +120,14 @@
     </mat-tab>
     <br />
 
-    <mat-tab label="PMQ-D">
+    <mat-tab
+      label="PMQ-D"
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      "
+    >
       <a
         mat-raised-button
         class="b2"
@@ -101,7 +146,14 @@
       >
     </mat-tab>
 
-    <mat-tab label="RK-PMQ">
+    <mat-tab
+      label="RK-PMQ"
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      "
+    >
       <a
         mat-raised-button
         class="b3"

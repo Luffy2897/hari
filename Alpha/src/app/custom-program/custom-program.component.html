@@ -6,24 +6,32 @@
       <mat-icon>home</mat-icon>
     </button>
 
-    <li>
-      <button mat-raised-button color="warn" class="b1">
-        <a routerLink="" style="text-decoration: none; color: black">LOGOUT</a>
-      </button>
-    </li>
+    <button mat-raised-button color="warn" class="b1" style="color: black">
+      LOGOUT
+    </button>
   </div>
   <!-- CODE FOR CREATING TEXTS BESIDE HOME BUTTON -->
   <div class="a">
-    <h4>
+    <h4
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      "
+    >
       &nbsp;&nbsp;
       <a routerLink="/custom" style="color: green; text-decoration: none">
-        T-hub Learning Offerings
+        <u>T-hub Learning Offerings</u>
+      </a>
+      &gt;
+      <a routerLink="/custom" style="color: green; text-decoration: none">
+        <u>SAT</u>
       </a>
       <a
         routerLink="/custom_program"
         style="color: green; text-decoration: none"
       >
-        &gt;CUSTOM-PROGRAM</a
+        &gt;<u>CUSTOM-PROGRAM</u></a
       >
     </h4>
   </div>
@@ -32,9 +40,10 @@
   <div>
     <mat-form-field
       color="accent"
-      style="margin-left: 0.5%; width: 20%; margin-top: 0.5%"
+      style="margin-left: 0.5%; width: 18%; margin-top: 0.5%"
+      id="ett"
     >
-      <mat-label style="font-weight: bold; color: aliceblue"
+      <mat-label style="font-weight: bold; color: aliceblue; font-size: smaller"
         >Resources</mat-label
       >
 
@@ -46,7 +55,7 @@
           target="_blank"
           style="text-decoration: none"
         >
-          <mat-option value="rs1" style="font-weight: bold">
+          <mat-option value="rs1" style="font-weight: bold" id="ett">
             Faculty Re-Evaluation Form
           </mat-option>
         </a>
@@ -58,7 +67,7 @@
           target="_blank"
           style="text-decoration: none"
         >
-          <mat-option value="rs2" style="font-weight: bold">
+          <mat-option value="rs2" style="font-weight: bold" id="ett">
             Training Need Requisition Form
           </mat-option>
         </a>
@@ -70,7 +79,7 @@
           target="_blank"
           style="text-decoration: none"
         >
-          <mat-option value="rs3" style="font-weight: bold">
+          <mat-option value="rs3" style="font-weight: bold" id="ett">
             Single Source Justification Form
           </mat-option>
         </a>
@@ -82,7 +91,7 @@
           target="_blank"
           style="text-decoration: none"
         >
-          <mat-option value="rs4" style="font-weight: bold">
+          <mat-option value="rs4" style="font-weight: bold" id="ett">
             Faculty Evaluation Form
           </mat-option>
         </a>
@@ -94,7 +103,7 @@
           target="_blank"
           style="text-decoration: none"
         >
-          <mat-option value="rs5" style="font-weight: bold">
+          <mat-option value="rs5" style="font-weight: bold" id="ett">
             Instructor Design Template
           </mat-option>
         </a>

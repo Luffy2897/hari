@@ -3,21 +3,17 @@
   <button mat-mini-fab id="a1" routerLink="/custom">
     <mat-icon>home</mat-icon>
   </button>
-  <h1
-    style="
-      text-align: center;
-      font-weight: bold;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      margin-top: -3%;
-    "
-  >
-    SOFTWARE-BASIC TOPICS
-  </h1>
+  <h1 id="head">SOFTWARE-BASIC TOPICS</h1>
   <!-- CHANGE THE HOME BUTTON ROUTING HERE -->
   <li>
-    <button mat-raised-button color="warn" class="b1">
-      <a routerLink="" style="text-decoration: none; color: black">LOGOUT</a>
+    <button
+      routerLink=""
+      mat-raised-button
+      color="warn"
+      class="b1"
+      style="color: black"
+    >
+      LOGOUT
     </button>
   </li>
   <div class="a">
@@ -33,8 +29,9 @@
         "
         id="p1"
       >
-        Custom Programs&nbsp;></a
+        <u>Custom Programs</u></a
       >
+      &gt;
       <a
         routerLink="/custom_program"
         style="
@@ -45,8 +42,9 @@
           text-decoration: none;
         "
       >
-        SOFTWARE&nbsp;></a
+        <u>SOFTWARE</u></a
       >
+      &gt;
       <a
         routerLink="/basic"
         style="
@@ -56,7 +54,7 @@
           text-decoration: none;
         "
       >
-        : Basic</a
+        <u>Basic</u></a
       >
     </h4>
   </div>
