@@ -1,0 +1,80 @@
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40%;
+}
+td {
+  width: 0%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: white;
+}
+
+.content {
+  padding: 1px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.hide {
+  display: none;
+}
+/* EXPANSION PANEL MARGIN ADJUSTMENT */
+.mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
+/* EXPANSION PANEL WIDTH AND LENGTH ADJUSTMENTS */
+mat-expansion-panel {
+  width: 100%;
+  background-color: white;
+}
+/* EXPANSION PANEL TITLE SIZE ADJUSTMENTS */
+mat-panel-title {
+  color: black;
+}
+/* TABLE HEADER STYLINGS */
+.a1 {
+  width: 1%;
+}
+.a2 {
+  width: 15%;
+}
+.a3 {
+  width: 2%;
+}
+.a4 {
+  width: 10%;
+}
+p {
+  color: rgb(122, 13, 238);
+}
+.background {
+  background-image: url("../../../assets/imges/srikars.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 23vh;
+}
+#table {
+  margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 4.5%;
+}
+.a {
+  margin-top: -5.2%;
+  margin-left: 4.5%;
+  size: 3%;
+}
+#a1 {
+  margin-top: 3.5%;
+  margin-left: 0.5%;
+  background-color: rgb(78, 136, 78);
+}
+.b1 {
+  margin-top: -6%;
+  margin-left: 81%;
+  font-weight: bolder;
+  text-decoration: none;
+}
